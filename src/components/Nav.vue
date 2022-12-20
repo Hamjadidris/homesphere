@@ -5,9 +5,9 @@
                 <h1 class="text-white text-3xl">Homesphere</h1>
 
                 <div class="hidden space-x-8 items-center md:flex">
-                    <a href="#" class=" text-white hover:text-blue-700">How it Works</a>
-                    <a href="#" class=" text-white hover:text-blue-700">Features</a>
-                    <a href="#" class=" text-white hover:text-blue-700">About</a>
+                    <a href="#" class=" text-white hover:text-blue-300">How it Works</a>
+                    <a href="#" class=" text-white hover:text-blue-300">Features</a>
+                    <a href="#" class=" text-white hover:text-blue-300">About</a>
                 </div>
             </div>
 
@@ -24,10 +24,10 @@
         <div class=" z-30" v-show="showNav">
             <div id="menu"
                 class="absolute flex flex-col items-center text-xl self-end py-8 mt-16 space-y-6 font-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-                <a href="#" class=" text-black  hover:text-blue-700">How it Works</a>
-                <a href="#" class=" text-black hover:text-blue-700">Features</a>
-                <a href="#" class=" text-black hover:text-blue-700">About</a>
-                <a href="#" class=" text-black hover:text-blue-700">Contact Us</a>
+                <a href="#" class=" text-black  hover:text-white">How it Works</a>
+                <a href="#" class=" text-black hover:text-white">Features</a>
+                <a href="#" class=" text-black hover:text-white">About</a>
+                <a href="#" class=" text-black hover:text-white">Contact Us</a>
             </div>
         </div>
     </nav>
@@ -59,7 +59,7 @@ export default {
 #menu {
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
