@@ -23,10 +23,11 @@
 
         <div class=" z-30" v-show="showNav">
             <div id="menu"
-                class="absolute flex flex-col items-center text-2xl self-end py-8 mt-16 space-y-6 font-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                class="absolute flex flex-col items-center text-xl self-end py-8 mt-16 space-y-6 font-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
                 <a href="#" class=" text-black  hover:text-blue-700">How it Works</a>
                 <a href="#" class=" text-black hover:text-blue-700">Features</a>
                 <a href="#" class=" text-black hover:text-blue-700">About</a>
+                <a href="#" class=" text-black hover:text-blue-700">Contact Us</a>
             </div>
         </div>
     </nav>
